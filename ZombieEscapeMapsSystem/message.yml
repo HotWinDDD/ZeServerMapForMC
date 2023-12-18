@@ -1,0 +1,67 @@
+#########################################################################
+#                                                                       #
+#             OldKingOK - ZE_MAPS_SYSTEM - Ver0.1 - HotWind             #
+#                                                                       #
+#                                                                       #
+#                     OldKingOK | 2023 | HotWind                        #
+#                    Developed by HotWind&OldkingOK                     #
+#                        Json Data from 9cats                           #
+#########################################################################
+ze-prefix: '&f[&4&lZE&c地图&f]'
+ze-favorite: '%prefix% 您已订阅地图关键词：%word%'
+ze-favorite-remove: '%prefix% 您已取消订阅地图关键词：%word%'
+ze-favorite-title: '&a你订阅的地图已被选上'
+ze-favorite-subtitle: '&e社区:%community% 服务器:%server%'
+ze-toggle-on: '&a%prefix% &c你已开启地图提醒功能'
+ze-toggle-off: '&a%prefix% &c你已关闭地图提醒功能'
+ze-must-be-a-community: '%prefix% &c参数错误(请注意区分大小写)'
+ze-maps:
+  - ' '
+  - '&f■  &a%community% - %server% &f丨 &a人数：&f%players%/%max-player%'
+  - '&f■  &a地图：&f%map-name%'
+  - '&f■  &a译名：&f%map-zh%'
+  - '&f■  &a地址：&f%address%'
+  - ' '
+ze-help-list:
+  - '%prefix% &a帮助指南'
+  - ''
+  - '&f■ &a/ze help &7// 显示帮助指南'
+  - '&f■ &a/ze favorite <关键词> &7// 通过关键词订阅地图'
+  - '&f■ &7例子: /ze favorite ze_obj'
+  - '&f■ &a/ze favorite &7// 查看所有关键词'
+  - '&f■ &a/ze remove <地图名> &7// 移除一个关键词'
+  - '&f■ &a/ze toggle &7// 关闭/开启换图提醒'
+  - '&f■ &a/ze server <社区名> &7// 打开该社区的服务器列表'
+  - '&f■ &a/ze server &7// 查看支持的社区'
+  - ''
+  - '&f■ &a&oDeveloped by HotWind/OldkingOK'
+  - '&f■ &a&oJson Data from 9cats'
+ze-help-admin-list:
+  - '&f■ %prefix% &c管理员帮助指南'
+  - ''
+  - '&f■ &a/ze admin toggle &7// 关闭/开启全服订阅提醒'
+  - '&f■ &a/ze admin only <社区名> &7// 设置之后只会提醒你该社区的换图提醒，将社区名输入all后则会全部提醒'
+  - '&f■ &a/ze reload &7// 重载插件'
+  - ''
+  - '&f■ &a&oDeveloped by HotWind/OldkingOK'
+  - '&f■ &a&oJson Data from 9cats'
+ze-server-map-list:
+  head:
+    - '%prefix% &a服务器列表'
+    - ' '
+  body: '&f■ &f[&a%community%&f] &f%server% &a地图：%map-name% %map-zh% &f人数:%players%/%max-player%'
+  ass:
+    - ''
+ze-server-list:
+  - '%prefix% &a支持的社区列表'
+  - ''
+  - '&f■ &c中国地区'
+  - '&f■ &a风云社 &e社区名: fys'
+  - '&f■ &aEXG &e社区名: exg'
+  - '&f■ &aZED &e社区名: zed'
+  - '&f■ &aUB &e社区名: ub'
+  - '&f■ &a93x &e社区名: 93x'
+  - ''
+  - '&f■ &6国外地区'
+  - '&f■ &afor &e社区名: for'
+  - '&f■ &acss &e社区名: css'
