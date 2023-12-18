@@ -1,0 +1,19 @@
+#########################################################################
+#                                                                       #
+#             OldKingOK - ZE_MAPS_SYSTEM - Ver0.1 - HotWind             #
+#                                                                       #
+#                                                                       #
+#                     OldKingOK | 2023 | HotWind                        #
+#                    Developed by HotWind&OldkingOK                     #
+#                        Json Data from 9cats                           #
+#########################################################################
+
+# 每过多少游戏刻更新一次服务器状态
+update-per-tick: 20
+# 检测服务器状态，超过多少毫秒服务器未响应，就认定服务器不在线
+time-out: 5000
+# title的设置，渐入，停留，渐出（单位Tick）
+title:
+  fadeIn: 10
+  stay: 50
+  fadeOut: 20

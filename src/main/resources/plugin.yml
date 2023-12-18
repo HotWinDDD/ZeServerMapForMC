@@ -1,0 +1,7 @@
+name: ZombieEscapeMapsSystem
+version: '${version}'
+main: com.qq.oldkingok.zombieescapemapssystem.ZombieEscapeMapsSystem
+api-version: '1.20'
+commands:
+  ze:
+    description: "Main command of ZombieEscapeMapsSystem Plugin"
